@@ -6,9 +6,6 @@ url: https://map.ukrainealarm.com/
 arch:
   - amd64
   - aarch64
-  - armv7
-  - armhf
-  - i386
 startup: services
 boot: auto
 init: false
