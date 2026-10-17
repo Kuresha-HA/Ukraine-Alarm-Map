@@ -1,7 +1,7 @@
 name: Ukraine Alarm Map Clean
-version: "1.4.12"
+version: "1.5.0"
 slug: ukraine_alarm_map_clean
-description: Clean interactive Ukraine air-raid map proxy for Home Assistant
+description: Clean interactive Ukraine air-raid map proxy for Home Assistant with live drone & threat tracking
 url: https://map.ukrainealarm.com/
 arch:
   - amd64

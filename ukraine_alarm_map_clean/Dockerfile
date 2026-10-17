@@ -5,7 +5,7 @@ RUN apk add --no-cache curl
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY run.sh /run.sh
 
-RUN chmod +x /run.sh
+RUN dos2unix /run.sh && chmod +x /run.sh
 
 ARG BUILD_VERSION
 ARG BUILD_ARCH
