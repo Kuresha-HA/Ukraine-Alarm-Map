@@ -1,5 +1,5 @@
 name: Ukraine Alarm Map Clean
-version: "1.5.0"
+version: "1.5.1"
 slug: ukraine_alarm_map_clean
 description: Clean interactive Ukraine air-raid map proxy for Home Assistant with live drone & threat tracking
 url: https://map.ukrainealarm.com/
@@ -15,5 +15,9 @@ ingress_stream: true
 panel_icon: mdi:map-legend
 panel_title: Тривоги України
 panel_admin: false
+ports:
+  8765/tcp: 8765
+ports_description:
+  8765/tcp: "Прямий доступ до карти без авторизації (для ТБ, PiPup, планшетів)"
 options: {}
 schema: {}
